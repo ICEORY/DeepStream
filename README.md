@@ -53,9 +53,9 @@ DeepStream 是一个基于Livox Horizon激光雷达和海康工业相机开发�
 
 ### 激光雷达与相机连接
 
-自行设计激光雷达与相机连接的底座，并通过某宝的亚克力板定制。
+自行设计激光雷达与相机连接的底座，并通过某宝进行亚克力板定制。
 
-<img src="C:\Users\87435\AppData\Roaming\Typora\typora-user-images\image-20220407143315267.png" alt="image-20220407143315267" style="zoom: 67%;" /><img src="C:\Users\87435\AppData\Roaming\Typora\typora-user-images\image-20220407143751534.png" alt="image-20220407143751534" style="zoom: 67%;" />
+<img src="./asset/image-20220407143315267.png" alt="image-20220407143315267" style="zoom:67%;" />  <img src="./asset/image-20220407143751534.png" alt="image-20220407143751534" style="zoom:67%;" />
 
 
 
@@ -163,7 +163,7 @@ DeepStream 是一个基于Livox Horizon激光雷达和海康工业相机开发�
 
 - Bilibili 链接：https://www.bilibili.com/video/BV1uf4y1L7Jf?spm_id_from=333.337.search-card.all.click
 
-![image-20220407150654442](C:\Users\87435\AppData\Roaming\Typora\typora-user-images\image-20220407150654442.png)
+![image-20220407150654442](asset/image-20220407150654442.png)
 
 ## 合作开发者
 
