@@ -1,4 +1,4 @@
-[toc]
+
 
 # DeepStream: A Demo for LiDAR-RGB Fusion
 
