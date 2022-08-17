@@ -178,7 +178,9 @@ DeepStream 是一个基于Livox Horizon激光雷达和海康工业相机开发�
 
 - Bilibili 链接：https://www.bilibili.com/video/BV1uf4y1L7Jf?spm_id_from=333.337.search-card.all.click
 
-![image-20220407150654442](asset/image-20220407150654442.png)
+<!---![image-20220407150654442](asset/image-20220407150654442.png)-->
+
+<img src="/asset/calib.gif" >
 
 ## 合作开发者
 
