@@ -11,11 +11,17 @@
       * [激光雷达与相机的联合标定](#激光雷达与相机的联合标定)
       * [标定参数的使用](#标定参数的使用)
    * [运行步骤](#运行步骤)
-   * [效果展示](#效果展示)
    * [合作开发者](#合作开发者)
 
 
 # DeepStream: A Demo for LiDAR-RGB Fusion
+
+
+完整功能演示 - [视频链接](https://www.bilibili.com/video/BV1uf4y1L7Jf?spm_id_from=333.337.search-card.all.click)
+
+<!---![image-20220407150654442](asset/image-20220407150654442.png)-->
+
+<img src="/asset/calib.gif" width=800px>
 
 ## 概述
 
@@ -174,13 +180,6 @@ DeepStream 是一个基于Livox Horizon激光雷达和海康工业相机开发�
 
 
 
-## 效果展示
-
-- Bilibili 链接：https://www.bilibili.com/video/BV1uf4y1L7Jf?spm_id_from=333.337.search-card.all.click
-
-<!---![image-20220407150654442](asset/image-20220407150654442.png)-->
-
-<img src="/asset/calib.gif" >
 
 ## 合作开发者
 
