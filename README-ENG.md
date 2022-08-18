@@ -1,20 +1,20 @@
 
 
 # DeepStream: A Demo for LiDAR-Camera Fusion
-
- 
-Full Demonstration - [Video](https://www.bilibili.com/video/BV1uf4y1L7Jf?spm_id_from=333.337.search-card.all.click)
-
-<!---![image-20220407150654442](asset/image-20220407150654442.png)-->
-
-<img src="/asset/calib.gif" width=800px>
-
-
 DeepStream is an embedded mobile platform equipped with 
 [Livox Horizon LiDAR](https://www.livoxtech.com/horizon) and 
 [HIK camera](https://www.hikrobotics.com/cn/machinevision/visionproduct?typeId=27&id=42). 
 This platform is developed on [Nvidia Jetson Xavier NX](https://www.nvidia.com/en-us/-machines/embedded-systems/jetson-xavier-nx/). 
 It will be used to deploy multi-sensor based algorithms in the future.
+ 
+
+<!---![image-20220407150654442](asset/image-20220407150654442.png)-->
+
+<img src="/asset/calib.gif" width=800px>
+
+Full Demonstration - [Video](https://www.bilibili.com/video/BV1uf4y1L7Jf?spm_id_from=333.337.search-card.all.click)
+
+
  
  
 # Content
