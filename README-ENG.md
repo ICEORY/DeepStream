@@ -105,6 +105,7 @@ To mimumize the parameters adjustment during the calibration, it's suggested to 
 
 
 **Calibration process(Zhang Zhengyou calibration method):**
+
 1. Initial corner detection
 2. Further extract sub-pixel corners
 3. Draw corner observations
@@ -112,17 +113,22 @@ To mimumize the parameters adjustment during the calibration, it's suggested to 
 5. Re-project 3D points in space to evaluate calibration effect
 
 **Data collection:**
+
 We use an 85-inch TV under dark conditions to display the calibration pictures, and collecte 35 frames of pictures from various viewpoints:
+
 <img src="asset/image-20210804090736311.png" width=800px>
 
 **Calibration result -- reprojection error:**
+
 0.014394424473247082 (error within the allowable range)
 
 
 **Distortion correction results:**
+
 <img src="asset/camera-jibian.png" width=800px>
 
 **Note:**
+
 1. Zhang's calibration method is very sensitive to environment. Therefore, we use TV screen display under dark condition as calibration plate.
 2. The shooting angle is not diverse enough, and the number of pictures taken is insufficient, both will result in bad accuracy.
 3. Exposure intensity needs to be carefully adjusted during shooting, otherwise corner points cannot be captured.
@@ -130,18 +136,24 @@ We use an 85-inch TV under dark conditions to display the calibration pictures, 
 ### 4. LiDAR Camera Calibration
 
 **Calibration method:**
+
 Camera LiDAR calibration algorithm based on plane constraint.
+
 <img src="asset/pingmianyueshu.png" width=800px>
 
 **Data collection:**
+
 We use an 1m x 1.5m TV as the calibration board. The distance between sensors and TV is about 3 meters. And collect 15 groups of data.
+
 <img src="asset/image-20210804091539394.png" width=800px>
 
-**Note**: It is very important to overlap multiple frames point cloud data, aka you need to record the `.bag` file for bout 10s, too sparse point cloud will damage the calibration accuracy greatly.
+**Note**: 
+
 1. It is very important to overlap multiple frames point cloud data, aka you need to record the `.bag` file for bout 10s, too sparse point cloud will damage the calibration accuracy greatly.
 2. The accuracy of manually marked corner points of the image is insufficient, resulting in the insufficient accuracy of the annotated image Angle, which affects the accuracy of the external reference annotation. Sub-pixel optimization can be used to further optimize the manually selected pixels to solve the problem.
 
 **Calibration effect:**
+
 <img src="asset/fusion%20results.png" width=800px>
 
 ### 5. Parameters Setting
